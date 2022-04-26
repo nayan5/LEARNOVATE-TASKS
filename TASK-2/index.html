@@ -1,0 +1,120 @@
+<!-- Build your own resume 
+    by using text tags, table (for displaying educational qualifications),
+    image tag for displaying image (can take image from browser), 
+    add name, 
+    address, 
+    career objective, 
+    educational qualifications, 
+    projects, 
+    hobbies and declaration (use css for attractive resume. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+<body>
+    <div class="container box-1" id="home">
+        <p class="watermark-2">&copy; Nayan Kaslikar</p>
+        <div "container-fluid">
+          <div class="row middle-row">
+            <div class="col-md-12 text-center" style="padding-left: 2%; ;">
+              <img src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" style="border: 5px solid white; ">
+            </div>
+            <div class="col-md-12 text-center name">
+              <p style="text-align: center;">Nayan Kaslikar</p>
+            </div>
+            <div class="col-md-12 social-media text-center">
+             
+      
+              <a href="#" target="_blank"><img src="https://myleschuahiock.files.wordpress.com/2016/02/linkedin-white.png"></a>
+              
+              <a href="#" target="_blank"><img src="https://myleschuahiock.files.wordpress.com/2016/02/git-white.png" ></a>
+              <a href="#" target="_blank"><img src="https://myleschuahiock.files.wordpress.com/2016/02/twitter-white.png" ></a>
+              
+              </div> 
+          </div>
+          <div class="nav">
+            <ul class="navbar text-center">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-catcher">About</a></li>
+              <li><a href="#project">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <h2 style="text-align: center;">HTML Table</h2>
+
+        <table style="width: 50%; margin-left:auto;margin-right:auto;">
+        <tr>
+            <th>YEAR</th>
+            <th>INSTITUTION</th>
+            <th>PLACE</th>
+            <th>GRADE</th>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>St Vincent Pallotti School</td>
+            <td>Nagpur</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>2018-2019</td>
+            <td>Narayan Junior College</td>
+            <td>Hyderabad</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>2020-present</td>
+            <td>MESCOE</td>
+            <td>Pune</td>
+            <td>A</td>
+        </tr>
+        
+        </table>
+
+        <div class="row">
+            <div class="column" style="font-size: 40px; font-family: 'Roboto', sans-serif; padding-left: 250px; width: 50%;padding-top: 90px; ">
+              <img src="https://images.unsplash.com/photo-1645002124765-966921c28464?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" alt="Snow" style="width:30% ; float: right;">
+            </div>
+            <div class="column" style="padding-left: 500px; align-items: center;"  >
+              <h1 >Nayan Kaslikar</h1>
+              <h3>👨‍🎓Student developer | <br>👨‍🔧Love to build interesting new kind of stuff | <br>🐍Python | Django | Building Websites</h3>
+              <p style="font-size: 20px">
+                
+                NAME - NAYAN KASLIKAR  <br>
+                ADDRESS - XYZ COLONY, BARAKHPUR  <br>
+                CAREER OBJECTIVE - SOFTWARE ENGINEER   <br>
+                 
+                
+                </p>
+            </div>
+            
+          </div>
+
+    
+</body>
+</html>
