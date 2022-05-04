@@ -1,0 +1,118 @@
+<!-- 1.	Print all the string methods in single page.
+
+2.	Do all the arithmetic operations using javascript and print them all in one page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK - 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p> <h1 style="text-align: center;">STRING METHODS  </h1>  <br></p>
+    
+    <div style="text-align: center;">
+    <script>
+        let abc = 'Wonderful';
+        document.write('STRING CONSIDERED IS - ',abc);
+
+        document.write("<br>");document.write("<br>");
+        
+        
+
+        //4
+        document.write('endsWith(queryString, length) Method -- ',abc.endsWith('ks'));
+        document.write("<br>");document.write("<br>");
+
+        //5
+        document.write('fromCharCode(UNICODE_NUMBER) Method -- ',String.fromCharCode(97));
+        document.write("<br>");document.write("<br>");
+
+        //6
+        document.write('includes(queryString) Method: -- ',abc.includes('erf'));
+        document.write("<br>");document.write("<br>");
+
+        //7
+        document.write('indexOf(queryString) Method -- ',abc.indexOf('W'));
+        document.write("<br>");document.write("<br>");
+
+        //8
+        document.write('repeat(number) Method: -- ',abc.repeat(3));
+        document.write("<br>");document.write("<br>");
+
+        //9
+        document.write('replace(replaceValue, replaceWithValue) Method -- ',abc.replace('ul', 'UL'));
+        document.write("<br>");document.write("<br>");
+
+        //10
+        document.write('search(queryString) Method -- ',abc.search('for'));
+        document.write("<br>");document.write("<br>");
+
+        //11
+        document.write('slice(startIndex, endIndex) Method -- ',abc.slice(2, 4));
+        document.write("<br>");document.write("<br>");
+
+
+        //13
+        document.write('startsWith(queryString) Method -- ',abc.startsWith('Wo'));
+        document.write("<br>");document.write("<br>");
+
+        //14
+        document.write('toLowerCase(stringVariable) Method -- ',abc.toLowerCase(abc));
+        document.write("<br>");document.write("<br>");
+
+        //15
+        document.write('toUpperCase(stringVariable) Method --- ',abc.toUpperCase(abc));
+        document.write("<br>");document.write("<br>");
+
+        //1
+        document.write(' Returns the character at the specified index -',abc.charAt(0));
+        document.write("<br>");document.write("<br>");
+
+        //2
+        document.write(' Returns a number that represents the Unicode value -',abc.charCodeAt(5));document.write("<br>");document.write("<br>");
+
+
+
+        
+
+        
+        
+
+     
+
+        
+
+
+    </script></div>
+
+
+        <p> <h1 style="text-align: center;">ARITHMETIC OPERATIONS</h1>  <br></p>
+        <div style="text-align: center;">
+    <script>
+
+        var a = 12, b = 3;
+                var addition, subtraction, multiplication, division, modulus;
+
+                addition = a + b; //addition of 3 and 12
+                subtraction = a - b; //subtract 3 from 12
+                multiplication = a * b; //Multiplying both
+                division = a / b; //dividing 12 by 3 (number of times)
+                modulus = a % b; //calculation the remainder
+
+                document.write("Addition of " +a +' and ' +b +" is = " + addition + "<br />");
+                document.write("<br>");document.write("<br>");
+                document.write("Subtraction of " +a +' and ' +b +" is = " + subtraction + "<br />");
+                document.write("<br>");document.write("<br>");
+                document.write("Multiplication of " +a +' and ' +b +" is = " + multiplication + "<br />");
+                document.write("<br>");document.write("<br>");
+                document.write("Division of " +a +' and ' +b +" is = " + division + "<br />");
+                document.write("<br>");document.write("<br>");
+        document.write("Modulus of " +a +' and ' +b +" is = " + modulus + "<br />");document.write("<br>");document.write("<br>");
+    </script>
+    
+</body>
+</html>
